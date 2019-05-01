@@ -1,0 +1,65 @@
+.panelSection2 {
+	background: #390000;
+	height: 180px;
+    margin-top: -50px;
+}
+
+.panelSection2 .title {
+	color: #fff;
+	font-weight: 900;
+    padding-top: 90px;
+	padding-left: 210px;
+    display: inline-block;
+    text-align: center;
+    line-height: 1.4;
+    
+}
+
+.contentSection2 {
+    background: url("../images/background2.jpg");
+    background-size: cover;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.contentSection2 .row, .contentSection2 .row2, .contentSection3 .row {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+.contentSection2 .row .col-sm-12 .content1 {
+	padding-left: 190px;
+	padding-top: 35px;
+}
+.contentSection2 .row .col-sm-12 .content2 .blockquote .mainRespond, .contentSection2 .row2 .col-sm-12 .content3 .blockquote .mainRespond, .contentSection2 .row3 .col-sm-12 .content6 .blockquote .mainRespond  {
+	font-style: oblique;
+	text-decoration: underline;
+	font-weight: bolder;
+	font-size: 14px;
+}
+
+.contentSection2 .row .col-sm-12 .content2 .blockquote .para, .contentSection2 .row2 .col-sm-12 .content3 .blockquote .para, .contentSection2 .row3 .col-sm-12 .content6 .blockquote .para {
+	font-size: 12px;
+	
+}
+
+.contentSection2 .row2 .col-sm-12 .content3 {
+	padding-left: 172px;
+	padding-right: 0px;
+}
+
+.contentSection2 .row2 .col-sm-12 .content4 {
+	padding-left: 41px;
+	padding-top: 35px;
+}
+
+.contentSection2 .row3 .col-sm-12 .content5 {
+	padding-left: 225px;
+	padding-top: 35px;
+}
+
+

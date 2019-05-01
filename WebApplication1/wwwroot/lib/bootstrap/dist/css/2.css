@@ -1,0 +1,133 @@
+#videoHeader {
+	position: relative;
+	background-color: black;
+	height: 75vh;
+	min-height: 25rem;
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+
+#videoHeader video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#videoHeader .container {
+  position: relative;
+  z-index: 2;
+}
+
+#videoHeader .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+#videoHeader .container h2 {
+	color: #fff;
+	font-size: 46px;
+
+    margin-bottom: 20px;
+    margin-top: 200px;
+    font-weight: 700;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	
+}
+
+#videoHeader .container p {
+	color: #7bda27;
+	margin-bottom: 45px;
+}
+
+#videoHeader .container .btn-cta {
+	font-size: 18px;
+	padding: 8px 30px;
+}
+
+#videoHeader .container a.btn-cta-primary {
+	background: #ec6952;
+    border: 2px solid #ec6952;
+    color: #fff;
+}
+
+.container-fluid {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+
+.container-fluid .col-sm-5 .picture1 {
+	padding-left: 150px;
+	padding-bottom: 30px;
+}
+
+
+
+.container-fluid .col-sm-5 .sentence1 p {
+	padding-bottom: 10px;
+    line-height: 1.5;
+	padding-left: 84px;
+}
+
+.container-fluid .col-sm-5 .picture2 {
+	margin-top: 44px;
+}
+
+
+.container-fluid .col-sm-5 .picture3 {
+	padding-left: 70px;
+	padding-top: 83px;
+	padding-bottom: 18px;
+	
+	
+}
+
+
+.container-fluid .col-sm-5 .picture4 {
+	
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+.container-fluid .col-sm-5 .sentence2 p {
+	padding-left: 20px;
+	padding-bottom: 10px;
+    line-height: 1.5;
+	padding-right: 75px;
+	
+}
+
+
+.container-fluid .col-sm-5 .topic h3 {
+	padding-left: 55px;
+	padding-bottom: 20px;
+}
+
+.container-fluid .col-sm-5 .sentence3 p {
+	padding-left: 55px;
+	padding-bottom: 10px;
+    line-height: 1.5;
+	padding-right: 75px;
+}
+
+.container-fluid .col-sm-5 .picture5 {
+	padding-top: 6px;
+	
+}
+

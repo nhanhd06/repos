@@ -1,0 +1,44 @@
+.panelSection {
+	background: #463c3c;
+	height: 180px;
+}
+
+.panelSection .title {
+	color: #fff;
+	font-weight: 900;
+    padding-top: 90px;
+	padding-left: 210px;
+    display: inline-block;
+    text-align: center;
+    line-height: 1.4;
+    
+}
+
+
+
+.contentSection{ 
+	background: url("../images/background.jpg");
+	background-size: cover;
+	
+	height: 634px;
+	padding-top: 30px;
+}
+
+.contentSection .carousel {
+    width: 104%;
+    right: 46px;
+	
+}
+
+.contentSection .carousel .carousel-indicators {
+	top: 95%;
+    left: 50%;
+}
+
+.contentSection .carousel .carousel-indicators .active {
+	background-color: black;
+}
+
+.contentSection .carousel .carousel-indicators li {
+	border: 1px solid #4930e8;
+}

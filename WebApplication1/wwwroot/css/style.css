@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin: 0; padding: 0; border: 0; font-size: 100%; vertical-align: baseline;} 
+
+
+body * {
+    box-sizing: border-box;
+}
+
+body.generic .l-utils {
+    display: block;
+    float: left;
+    width: 100%;
+    background: #ECECEC;
+    border-top: 5px solid #DEA300;
+    text-align: center;
+}
+
+body.generic .l-utils #gateway-container {
+    padding: 0;
+    max-height: 38px;
+
+body.generic .gateway {
+    display: inline-block;
+    float: left;
+}
+	
+body.generic .gateway ul {
+    padding: 0px;
+    margin: 0;
+}
+
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+body.generic .gateway ul li {
+    font-size: 14px;
+    text-align: center;
+    color: maroon;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-right: 1px solid #AAA;
+}
+
+ul.list-unstyled li, ol.list-unstyled li {
+    padding: 0;
+    margin: 0;
+}
+ul.list-inline li, ol.list-inline li {
+    width: auto;
+}
+	
+div#students-outline {
+    text-align: right;
+}
+
+ul li *, ol li * {
+    float: none;
+}	
+	
+.gateway-students-title {
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+ul li *, ol li * {
+    float: none;
+}	
+
+.fa, .fas {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+}
+
+.fa, .fab, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}	
+	
+.fa-chevron-right:before {
+    content: "\f054";
+}
+
+*:before, *:after {
+    box-sizing: border-box;
+}	
+
+body.generic .gateway ul li a {
+    display: inline;
+    float: none;
+    line-height: 40px;
+    color: maroon;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+ul.list-unstyled li a, ol.list-unstyled li a {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 10px;
+}	
+	
+	
+@media (min-width: 1170px)
+.hidden-lg {
+    display: none !important;
+}	
+	
